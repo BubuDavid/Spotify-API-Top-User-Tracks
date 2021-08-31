@@ -1,0 +1,7 @@
+{% extends 'base.html' %} {% block content %} {% for track in tracks %}
+<div class="track-container">
+    <h1>{{track.name}}</h1>
+    <h2>{{ track.artist }}</h2>
+</div>
+
+<br><br><br> {% endfor %} {% endblock %}

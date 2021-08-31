@@ -54,7 +54,7 @@ def callback_view(req):
 
     # Save in the database
     print('--------------')
-    create_track(complete_tracks)
+    # create_track(complete_tracks)
     print('--------------')
 
-    return HttpResponse('Hi there!')
+    return render(req, 'callback.html', {'tracks': complete_tracks})

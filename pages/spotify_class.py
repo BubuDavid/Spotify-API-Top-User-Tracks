@@ -28,8 +28,8 @@ class SpotifyApi(object):
             'client_id': self.client_id,
             'response_type': 'code',
             'redirect_uri' : self.redirect_uri,
-            'scope': self.scopes,
-            'show_dialog': 'true'
+            'show_dialog': 'true',
+            'scope': self.scopes
         }
 
     def get_client_credentials(self):
