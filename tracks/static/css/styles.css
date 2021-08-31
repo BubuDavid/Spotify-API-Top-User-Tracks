@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito';
+}
+
+body {
+  background-color: #272727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 400px;
+  width: 500px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.container p {
+  font-size: 1.1rem;
+}
+
+.container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1DB954;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  height: 3rem;
+  width: 30%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  border: none;
+  -webkit-transition: all 450ms;
+  transition: all 450ms;
+}
+
+.container a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=styles.css.map */
